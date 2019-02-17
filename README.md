@@ -51,9 +51,9 @@ Describe
 
 ## Software Installation:
 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
-2. Aktywuj VNC na Raspberry Pi
+2. Aktywuj VNC na Raspberry Pi by obsługiwać urządzenie zdalnie, a nie przez HDMI
 3. Ściągnij ,zainstaluj oraz połącz Raspberry Pi ze swoim komputerem poprzez program VNC (zalecam [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
-4. Uruchom kamrę na Raspberry Pi
+4. Uruchom kamerę na Raspberry Pi w raspi-config
 
 
 ## TODO:
@@ -61,7 +61,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5Njc2MzQsLTMzNDczMzQxNywxNjM4Mz
-gwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4
-XX0=
+eyJoaXN0b3J5IjpbLTE5Mzc3MDI5OTUsLTMzNDczMzQxNywxNj
+M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
+OTE4XX0=
 -->
