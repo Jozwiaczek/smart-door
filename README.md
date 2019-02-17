@@ -79,13 +79,12 @@ Describe
  `pip install RPi.GPIO`
  
  10. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
-![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
-
+		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 
  11. Run again ***1_face_management.py*** and choose option *[5] Face training* to train a recognaizer. 
-	 > Every time you add a new user or you update something, you must repeat this step!
+	![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
 
-![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
+		> Every time you add a new user or you update something, you must repeat this step!
 
 12. 
 ## TODO:
@@ -93,7 +92,8 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NTg4MDMzLC0xMjk1NDAyMzc5LC04NT
-M1NDY2NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5
-MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTYzNTE3MjQyNywtMTI5NTQwMjM3OSwtOD
+UzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2
+OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ
+==
 -->
