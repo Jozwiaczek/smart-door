@@ -9,7 +9,7 @@ This project provides software and hardware installation instructions for smart 
 ## Requirements:
 
 #### Hardware
- - [Raspberry Pi](http://www.raspberrypi.org/)
+ - [Raspberry Pi](http://www.raspberrypi.org/) (In my case it is Raspberry Pi B+)
  - Micro USB charger (1.5A preferable)
  - micro SD Card
  - [Magnetic Contact Switch](http://amzn.com/B006VK6YLC)
@@ -62,6 +62,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDczMzQxNywxNjM4MzgwNjkyLC05ND
-A4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTEyMDIzMzMxNzIsLTMzNDczMzQxNywxNj
+M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
+OTE4XX0=
 -->
