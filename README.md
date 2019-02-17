@@ -54,15 +54,18 @@ Describe
 2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI (I recommend [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
 3. Activate the camera on Raspberry Pi in raspi-config ([More info](https://www.raspberrypi.org/documentation/configuration/camera.md))
 4. Install module to control Raspberry Pi GPIO channels
-	
+
+    pip install RPi.GPIO
 
 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 
+    pip install RPi.GPIO
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY0NzA0MTcsLTMzNDczMzQxNywxNj
-M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2Mz
+gzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5
+MThdfQ==
 -->
