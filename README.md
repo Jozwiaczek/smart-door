@@ -60,14 +60,16 @@ Describe
  `source ~/.profile`
  7. Next, let's enter on virtual environment: *Remember to always work on this project in a virtual environment, otherwise the program will not work without OpenCv*
  `workon cv`
- 8. Add camera drivers `bcm2835-v4l2` to the last line by opening: `sudo nano /etc/modules file`
- 9. `enter code here`
+ 8. Add camera drivers `bcm2835-v4l2` to the last line by opening file `sudo nano /etc/modules file`
+ 9. Install PIL library 
+ `pip install pillow`
+ 10. 
 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDU4NDM2NywtODUzNTQ2NjYsLTk3MD
-M5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2
-OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ==
+eyJoaXN0b3J5IjpbLTE5MzA5ODgwMDcsLTg1MzU0NjY2LC05Nz
+AzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0
+NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
