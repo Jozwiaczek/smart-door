@@ -81,19 +81,16 @@ Describe
  10. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
 		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 
- 11. Run again ***1_face_management.py*** and choose option *[5] Face training* to train a recognaizer. 
+ 11. Run again **1_face_management.py** and choose option *[5] Face training* to train a recognaizer. 
 	![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
 
 		> Every time you add a new user or you update something, you must repeat this step!
 
-12. 
-## TODO:
-This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
+12. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTE3MjQyNywtMTI5NTQwMjM3OSwtOD
-UzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2
-OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ
-==
+eyJoaXN0b3J5IjpbOTI0MjM5NjgsLTEyOTU0MDIzNzksLTg1Mz
+U0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjky
+LC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
