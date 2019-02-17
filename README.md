@@ -50,26 +50,26 @@ Describe
 
 
 ## Software Installation:
- 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
+ 1.  Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi
  2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI [Recommend [RealVNC](https://www.realvnc.com/en/connect/download/viewer/)]
  3. Activate the camera on Raspberry Pi in raspi-config [[More info](https://www.raspberrypi.org/documentation/configuration/camera.md)]
- 4. Install module to control Raspberry Pi GPIO channels
- `pip install RPi.GPIO`
- 5. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. *Remember to select Python 3 when configuring your virtual environment*
- 6. I recommends run the command "source" each time you open up a new terminal to ensure your system variables have been set up correctly.  
+ 4. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. *Remember to select Python 3 when configuring your virtual environment*
+ 5. I recommends run the command "source" each time you open up a new terminal to ensure your system variables have been set up correctly.  
  `source ~/.profile`
- 7. Next, let's enter on virtual environment: *Remember to always work on this project in a virtual environment, otherwise the program will not work without OpenCv*
+ 6. Next, let's enter on virtual environment: *Remember to always work on this project in a virtual environment, otherwise the program will not work without OpenCv*
  `workon cv`
- 8. Add camera drivers `bcm2835-v4l2` to the last line by opening file `sudo nano /etc/modules file`
- 9. Install PIL library 
+ 7. Add camera drivers `bcm2835-v4l2` to the last line by opening file `sudo nano /etc/modules file`
+ 8. Install PIL library 
  `pip install pillow`
- 10. 
+ 9. Install module to control Raspberry Pi GPIO channels
+ `pip install RPi.GPIO`
+ 10. Run file *1_face_management.py*
 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA5ODgwMDcsLTg1MzU0NjY2LC05Nz
+eyJoaXN0b3J5IjpbLTIwMDc5MzMzNDAsLTg1MzU0NjY2LC05Nz
 AzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0
 NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
