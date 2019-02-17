@@ -3,16 +3,14 @@ import numpy as np
 import RPi.GPIO as GPIO
 import os
 import sys
+import tqdm
 from time import *
 from lcd import *
-
-# Starting info
-current_file_name =  os.path.basename(sys.argv[0])
-print("\nStarting: %s" % (current_file_name))
 
 # Declaration of pin
 pinGreenLed=5
 pinRedLed=4
+pinYellowLed=26
 pinBeep=17
 pinBtn=13
 pinMagnes=6
@@ -23,6 +21,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(pinGreenLed, GPIO.OUT)
 GPIO.setup(pinRedLed, GPIO.OUT)
+GPIO.setup(pinYellowLed, GPIO.OUT)
 GPIO.setup(pinBtn, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(pinMagnes, GPIO.OUT)
 GPIO.setup(pinSensor,GPIO.IN, GPIO.PUD_UP)
@@ -34,7 +33,7 @@ def beep(counter):
   GPIO.output(pinBeep, GPIO.HIGH)
   GPIO.setup(pinBeep,GPIO.IN)
 
-def openDoor(ev=None):
+def openDoor(getout,ev=None):
   global lcd
   lcd = LCD()
 
@@ -47,7 +46,10 @@ def openDoor(ev=None):
 
   for x in range(1,11):
     time = 11-x
-    lcd.message("Witaj: %s\nPozostalo: %dsek"%(str(id),time))
+    if getout == False :
+        lcd.message("Hello: %s\nRemaining: %dsec"%(str(id),time))
+    else :
+        lcd.message("Open doors\nRemaining: %dsec"%(time))
     sleep(1)
     lcd.clear()
 
@@ -56,16 +58,18 @@ def openDoor(ev=None):
     flaga = True;
     while(GPIO.input(pinSensor)):
      if(flaga):
-       lcd.message("DRZWI SIE ZAMYKA \nTO NIE AFRYKA!!!")
-       flaga = False
+        GPIO.output(pinYellowLed, GPIO.HIGH)
+        lcd.message("CLOSE THE DOOR")
+        flaga = False
+    GPIO.output(pinYellowLed, GPIO.LOW)
   lcd.clear()
-  lcd.message("ZAMKNIETE")
+  lcd.message("CLOSED")
   GPIO.output(pinGreenLed, GPIO.HIGH)
   GPIO.output(pinRedLed, GPIO.LOW)
   GPIO.output(pinMagnes, GPIO.LOW)
   beep(0.5)
 
-print("Start systemu...")
+print("System starts...")
 #=====================
 #Recognizer
 recognizer = cv2.face.LBPHFaceRecognizer_create()
@@ -82,11 +86,11 @@ minW = 0.1*cam.get(3)
 minH = 0.1*cam.get(4)
 #inicjacja zmiennej do kilkukrotnego sprawdzenia danej twarzy
 incToOpen=0
-print("Program zaladowany")
+print("System ready")
 
 #iniciate id counter
 id = 0
-# names related to ids: example ==> Marcelo: id=1,  etc
+# names related to id
 names = ['None']
 
 # List of avalible users
@@ -110,7 +114,7 @@ if  ifExistsFileFaceName:
 
 while True:
     if(GPIO.input(pinBtn)== 0):
-        openDoor()
+        openDoor(True)
     ret, img =cam.read()
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     faces = faceCascade.detectMultiScale( 
@@ -129,7 +133,7 @@ while True:
             rozpoznanie=100-confidence
             confidence = "  {0}%".format(round(100 - confidence))
             if(rozpoznanie>30):
-            	incToOpen+=1
+                incToOpen+=1
             print(rozpoznanie)
             print(incToOpen)
         else:
@@ -137,16 +141,18 @@ while True:
             confidence = "  {0}%".format(round(100 - confidence))
             incToOpen=0
         if(incToOpen==5):
-          openDoor()
+          openDoor(False)
           incToOpen=0
 
         cv2.putText(img, str(id), (x+5,y-5), font, 1, (255,255,255), 2)
         cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)  
 
-    cv2.imshow('Program do rozpoznawania twarzy',img) 
+    cv2.imshow('Smart Doors - Monitoring',img) 
     k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
     if k == 27:
         break
+    if k == 32:
+        openDoor(True)
 # Do a bit of cleanup
 print("\n [INFO] Exiting Program and cleanup stuff")
 cam.release()
