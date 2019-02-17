@@ -1,9 +1,10 @@
 # Smart-Doors v1.0
 Smart door opening via Raspberry Pi using face recognition.
+![enter image description here](https://lh3.googleusercontent.com/ZuzLBom_JPEEM14VQioGLCJJWu3Mqh9_ecLV-SS9GiK_wT2KnzoZeclkjZpW9ACmv5bqXqTs220x=s100)
 
 ## Overview:
 This project provides software and hardware installation instructions for smart doors. The software is designed to run on a Raspberry Pi, which is an inexpensive ARM-based computer.
-![enter image description here](https://lh3.googleusercontent.com/7OvrStm2GaahdFK7hxLnnjpMaYPaOmrhBksQ54LOuj1loveQtPiitOVfD-fL-2tgPbbuKHDoqdy1)
+
 ## Requirements:
 
 #### Hardware
@@ -59,6 +60,6 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3ND
-czNTI5MThdfQ==
+eyJoaXN0b3J5IjpbMTg0NTcyOTM0MSwtOTQwODQ5NDY4LC0yNz
+I5NDUwMjQsMTc0NzM1MjkxOF19
 -->
