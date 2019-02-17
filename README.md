@@ -14,7 +14,7 @@ This project provides software and hardware installation instructions for smart 
  - Micro SD Card
  - [Magnetic Contact Switch](http://amzn.com/B006VK6YLC)
  - [Starter Kit V3.0 for Raspberry Pi](https://pl.aliexpress.com/item/SunFounder-Super-Starter-Learning-Kit-V3-0-for-Raspberry-Pi-3-2-Model-B-1-Model/32805707137.html?spm=a2g0s.9042311.0.0.27425c0fwNGuQX)
- - [Zamek Elektro-Magnetyczny](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
+ - [Electro-Magnetic Lock](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - [Raspberry Pi Camera Night Vision](https://pl.aliexpress.com/item/Raspberry-Pi-Camera-RPI-Focal-Adjustable-Night-Version-Camera-Acrylic-Holder-IR-Light-FFC-Cable-for/32796213162.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - 
 
@@ -51,7 +51,7 @@ Describe
 
 ## Software Installation:
 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
-2. Aktywuj VNC na Raspberry Pi by obsługiwać urządzenie zdalnie, a nie przez HDMI
+2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI (I recommend RealVNC)
 3. Ściągnij ,zainstaluj oraz połącz Raspberry Pi ze swoim komputerem poprzez program VNC (zalecam [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
 4. Uruchom kamerę na Raspberry Pi w raspi-config ([More info](https://www.raspberrypi.org/documentation/configuration/camera.md))
 5. 
@@ -62,7 +62,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzUyNTQ5LC0zMzQ3MzM0MTcsMTYzOD
-M4MDY5MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1Mjkx
-OF19
+eyJoaXN0b3J5IjpbLTcxNjc4NDcxMywtMzM0NzMzNDE3LDE2Mz
+gzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5
+MThdfQ==
 -->
