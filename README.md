@@ -59,32 +59,39 @@ Describe
 
  5. I recommends run the command "source" each time you open up a new terminal to ensure your system variables have been set up correctly.  
  `source ~/.profile`
+
  6. Next, let's enter on virtual environment: 
 
 > Remember to always work on this project in a virtual environment,
 > otherwise the program will not work without OpenCv
 
  `workon cv`
+
  7. Add camera drivers `bcm2835-v4l2` to the last line by opening file `sudo nano /etc/modules file`
+
  8. Install PIL library 
  `pip install pillow`
+
  9. Install module to control Raspberry Pi GPIO channels
  `pip install RPi.GPIO`
+ 
  10. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
 ![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
+
  11. Run again ***1_face_management.py*** and choose option *[5] Face training* to train a recognaizer. 
  
 
-> Blockquote
+> Every time you add a new user or you update something, you must repeat this step!
 
 ![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
+
 12. 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEyMDYwOTQsLTEyOTU0MDIzNzksLT
+eyJoaXN0b3J5IjpbLTIwNjA1Mjc5MzAsLTEyOTU0MDIzNzksLT
 g1MzU0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4Mzgw
 NjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX
 0=
