@@ -51,21 +51,24 @@ Describe
 
 ## Software Installation:
  1.  Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi
+ 
  2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI [Recommend [RealVNC](https://www.realvnc.com/en/connect/download/viewer/)]
+ 
  3. Activate the camera on Raspberry Pi in raspi-config [[More info](https://www.raspberrypi.org/documentation/configuration/camera.md)]
+ 
  4. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. 
 
-> Remember to select Python 3 when configuring your virtual environment
+	> Remember to select Python 3 when configuring your virtual environment
 
  5. I recommends run the command "source" each time you open up a new terminal to ensure your system variables have been set up correctly.  
- `source ~/.profile`
+  `source ~/.profile`
 
- 6. Next, let's enter on virtual environment: 
-
-> Remember to always work on this project in a virtual environment,
-> otherwise the program will not work without OpenCv
-
+ 7. Next, let's enter on virtual environment: 
  `workon cv`
+
+	> Remember to always work on this project in a virtual environment,
+	> otherwise the program will not work without OpenCv
+
 
  7. Add camera drivers `bcm2835-v4l2` to the last line by opening file `sudo nano /etc/modules file`
 
@@ -78,10 +81,9 @@ Describe
  10. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
 ![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 
- 11. Run again ***1_face_management.py*** and choose option *[5] Face training* to train a recognaizer. 
- 
 
-> Every time you add a new user or you update something, you must repeat this step!
+ 11. Run again ***1_face_management.py*** and choose option *[5] Face training* to train a recognaizer. 
+	 > Every time you add a new user or you update something, you must repeat this step!
 
 ![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
 
@@ -91,8 +93,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA1Mjc5MzAsLTEyOTU0MDIzNzksLT
-g1MzU0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4Mzgw
-NjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX
-0=
+eyJoaXN0b3J5IjpbNTg2NTg4MDMzLC0xMjk1NDAyMzc5LC04NT
+M1NDY2NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5
+MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
 -->
