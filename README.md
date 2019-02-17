@@ -50,7 +50,7 @@ Describe
 
 
 ## Software Installation:
-1.  **Install  [Raspbian](http://www.raspbian.org/)  onto your Raspberry Pi**
+1.  **Install Rasbian  onto your Raspberry Pi**
     
     1.  [Tutorial](http://www.raspberrypi.org/wp-content/uploads/2012/12/quick-start-guide-v1.1.pdf)
     2.  [Another tutorial](http://www.andrewmunsell.com/blog/getting-started-raspberry-pi-install-raspbian)
@@ -62,7 +62,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIzMzMxNzIsLTMzNDczMzQxNywxNj
+eyJoaXN0b3J5IjpbLTEzNDI4Mjg4NTcsLTMzNDczMzQxNywxNj
 M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
 OTE4XX0=
 -->
