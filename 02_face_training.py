@@ -2,10 +2,23 @@ import cv2
 import numpy as np
 from PIL import Image
 import os
+
+# Starting info
+current_file_name =  os.path.basename(sys.argv[0])
+print("\nStarting: %s" % (current_file_name))
+
+# Checking exists of directory 'trainer' and create that if not exists
+dirTrainerPath = os.path.abspath('trainer')
+ifExistsDirTrainer = os.path.isdir(dirTrainerPath)
+if not ifExistsDirTrainer :
+    os.mkdir(dirTrainerPath)
+    print("\n [INFO] Create new directory 'trainer'")
+
 # Path for face image database
 path = 'dataset'
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
+
 # function to get the images and label data
 def getImagesAndLabels(path):
     imagePaths = [os.path.join(path,f) for f in os.listdir(path)]     
