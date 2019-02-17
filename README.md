@@ -36,12 +36,12 @@ Describe
 #### Using the breadboard to connect the pins:
 1. Green led = 5
 2. Red led = 4
-3. Yellow led = 
+3. Yellow led = 26
 4. Buzzer = 17
 5. pinBtn = 13
-6. Elektromages = 6
-7. Sensor otwarecia drzwi = 19
-8. Ekran LCD:
+6. LockDoor = 6
+7. Sensor of opening door = 19
+8. LCD Screen:
 	1. D7 = 18
 	2. RS = 27
 	3. E = 22
@@ -91,8 +91,8 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDc5NDQ1NSw5MjQyMzk2OCwtMTI5NT
-QwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3
-LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3ND
-czNTI5MThdfQ==
+eyJoaXN0b3J5IjpbLTExNzI1MTU4OTIsOTI0MjM5NjgsLTEyOT
+U0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQx
+NywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNz
+Q3MzUyOTE4XX0=
 -->
