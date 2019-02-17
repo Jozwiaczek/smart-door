@@ -51,10 +51,10 @@ Describe
 
 ## Software Installation:
 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
-2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI (I recommend RealVNC)
-3. Ściągnij ,zainstaluj oraz połącz Raspberry Pi ze swoim komputerem poprzez program VNC (zalecam [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
-4. Uruchom kamerę na Raspberry Pi w raspi-config ([More info](https://www.raspberrypi.org/documentation/configuration/camera.md))
-5. 
+2. Activate VNC on Raspberry Pi to operate the device remotely via a computer, not via HDMI (I recommend [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
+3. Activate the camera on Raspberry Pi in raspi-config ([More info](https://www.raspberrypi.org/documentation/configuration/camera.md))
+4. Install module to control Raspberry Pi GPIO channels
+	
 
 
 ## TODO:
@@ -62,7 +62,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjc4NDcxMywtMzM0NzMzNDE3LDE2Mz
-gzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5
-MThdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY0NzA0MTcsLTMzNDczMzQxNywxNj
+M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
+OTE4XX0=
 -->
