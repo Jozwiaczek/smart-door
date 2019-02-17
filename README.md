@@ -55,15 +55,13 @@ Describe
  3. Activate the camera on Raspberry Pi in raspi-config [[More info](https://www.raspberrypi.org/documentation/configuration/camera.md)]
  4. Install module to control Raspberry Pi GPIO channels
  `pip install RPi.GPIO`
- 5. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. 
-
-> *Remember to select Python 3 when configuring your virtual environment*
-
+ 5. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. *Remember to select Python 3 when configuring your virtual environment*
+ 6. 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQyODgwOTUsLTk3MDM5MTk5NSwtMz
-M0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1
-MDI0LDE3NDczNTI5MThdfQ==
+eyJoaXN0b3J5IjpbNTE5MDE5Njk1LC05NzAzOTE5OTUsLTMzND
+czMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAy
+NCwxNzQ3MzUyOTE4XX0=
 -->
