@@ -63,13 +63,14 @@ Describe
  `pip install pillow`
  9. Install module to control Raspberry Pi GPIO channels
  `pip install RPi.GPIO`
- 10. Run file *1_face_management.py*
+ 10. Run file *1_face_management.py* and add new user with face samples.
+ 11. Run again *1_face_management.py* and choose option
 
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc5MzMzNDAsLTg1MzU0NjY2LC05Nz
+eyJoaXN0b3J5IjpbLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05Nz
 AzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0
 NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
