@@ -11,7 +11,7 @@ This project provides software and hardware installation instructions for smart 
 #### Hardware
  - [Raspberry Pi](http://www.raspberrypi.org/) (In my case it is Raspberry Pi B+)
  - Micro USB charger (1.5A preferable)
- - micro SD Card
+ - Micro SD Card
  - [Magnetic Contact Switch](http://amzn.com/B006VK6YLC)
  - [Zestaw KIT](https://pl.aliexpress.com/item/SunFounder-Super-Starter-Learning-Kit-V3-0-for-Raspberry-Pi-3-2-Model-B-1-Model/32805707137.html?spm=a2g0s.9042311.0.0.27425c0fwNGuQX)
  - [Zamek Elektro-Magnetyczny](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
@@ -53,7 +53,8 @@ Describe
 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
 2. Aktywuj VNC na Raspberry Pi by obsługiwać urządzenie zdalnie, a nie przez HDMI
 3. Ściągnij ,zainstaluj oraz połącz Raspberry Pi ze swoim komputerem poprzez program VNC (zalecam [RealVNC](https://www.realvnc.com/en/connect/download/viewer/))
-4. Uruchom kamerę na Raspberry Pi w raspi-config
+4. Uruchom kamerę na Raspberry Pi w raspi-config ([More info](https://www.raspberrypi.org/documentation/configuration/camera.md))
+5. 
 
 
 ## TODO:
@@ -61,7 +62,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc3MDI5OTUsLTMzNDczMzQxNywxNj
-M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTk3ODI0MjgxOSwtMzM0NzMzNDE3LDE2Mz
+gzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5
+MThdfQ==
 -->
