@@ -27,6 +27,7 @@ This project provides software and hardware installation instructions for smart 
 
 
 ## Hardware Setup:
+![enter image description here](https://lh3.googleusercontent.com/d3fj4aBOaN3fpGIbpKns15QNstFF4ihZ2WMupRjTqvkvAG_EOvPFVuIfbylhvCiZUPf4PFkdKw1T=s400)
 
 *Step 1:*
 
@@ -61,6 +62,6 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mzk3MzU1MiwtOTQwODQ5NDY4LC0yNz
+eyJoaXN0b3J5IjpbMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNz
 I5NDUwMjQsMTc0NzM1MjkxOF19
 -->
