@@ -60,12 +60,13 @@ Describe
  `source ~/.profile`
  7. Next, let's enter on virtual environment: *Remember to always work on this project in a virtual environment, otherwise the program will not work without OpenCv*
  `workon cv`
- 8. 
+ 8. Add camera drivers to the last line after opening: `sudo nano /etc/modules file`
+
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzU0NjY2LC05NzAzOTE5OTUsLTMzND
-czMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAy
-NCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTM3ODg2NDcyMywtODUzNTQ2NjYsLTk3MD
+M5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2
+OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
