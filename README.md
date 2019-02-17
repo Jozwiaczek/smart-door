@@ -22,7 +22,7 @@ This project provides software and hardware installation instructions for smart 
 #### Software
  - Raspbian
  - Python 3.5
- - 
+ - OpenCV
 
 
 
@@ -62,6 +62,6 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNz
-I5NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTMzNDczMzQxNywxNjM4MzgwNjkyLC05ND
+A4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
