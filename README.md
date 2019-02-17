@@ -51,7 +51,8 @@ Describe
 
 ## Software Installation:
 1.  **Install [Rasbian](https://www.raspberrypi.org/downloads/raspbian/)  onto your Raspberry Pi**
-2. 
+2. Aktywuj VNC
+3. Ściągnij i zainstaluj na swoim komputerze program do VNC ( zalecam
 
 
 ## TODO:
@@ -59,7 +60,7 @@ This section contains the features I would like to add to the application, but d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzk5NTQ0NiwtMzM0NzMzNDE3LDE2Mz
-gzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5
-MThdfQ==
+eyJoaXN0b3J5IjpbLTIwNTU1MzE1OTMsLTMzNDczMzQxNywxNj
+M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
+OTE4XX0=
 -->
