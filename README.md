@@ -56,11 +56,14 @@ Describe
  4. Install module to control Raspberry Pi GPIO channels
  `pip install RPi.GPIO`
  5. Install OpenCv 3 [[Tutorial](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)]. 
+
+> *Remember to select Python 3 when configuring your virtual environment*
+
 ## TODO:
 This section contains the features I would like to add to the application, but do not currently have time for. If someone would like to contribute changes or patches, I would be all to happy to incorporate them.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg5MzA2NzIsLTk3MDM5MTk5NSwtMz
+eyJoaXN0b3J5IjpbLTE5MTQyODgwOTUsLTk3MDM5MTk5NSwtMz
 M0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1
 MDI0LDE3NDczNTI5MThdfQ==
 -->
