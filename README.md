@@ -76,10 +76,10 @@ Describe
  8. Install PIL library 
  `pip install pillow`
 
- 9. Install module to control Raspberry Pi GPIO channels
+ 9. Install module to control [Raspberry Pi GPIO](https://pypi.org/project/RPi.GPIO/) channels
  `pip install RPi.GPIO`
  
- 10. Install progress bar library 
+ 10. Install [progress](https://pypi.org/project/progress/) bar library 
  `pip install progress`
 	 
  12. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
@@ -94,8 +94,8 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY2MzUwMjYsLTExNzI1MTU4OTIsOT
-I0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5
-OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLT
-I3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbMTAwNjYzMzc3NSwtMTE3MjUxNTg5Miw5Mj
+QyMzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5
+NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMj
+cyOTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
