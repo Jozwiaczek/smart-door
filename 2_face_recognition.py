@@ -3,9 +3,10 @@ import numpy as np
 import RPi.GPIO as GPIO
 import os
 import sys
-import tqdm
+import threading
 from time import *
 from lcd import *
+from progress.bar import *
 
 # Declaration of pin
 pinGreenLed=5
@@ -69,11 +70,30 @@ def openDoor(getout,ev=None):
   GPIO.output(pinMagnes, GPIO.LOW)
   beep(0.5)
 
-print("System starts...")
+def loader():
+    sizeTrainer = int(os.path.getsize('trainer/trainer.yml')/(1024*1024))
+    timeToLoad = int(sizeTrainer/4.3)
+    bar = FillingSquaresBar('Starting the system', max=timeToLoad,suffix='%(percent)d%%')
+    for i in range(timeToLoad):
+        sleep(1)
+        bar.next()
+    bar.finish()
+
 #=====================
-#Recognizer
+# System starts
+
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('trainer/trainer.yml')
+
+def readTrainer():
+    recognizer.read('trainer/trainer.yml')
+        
+t1=threading.Thread(target=readTrainer,args=())
+t2=threading.Thread(target=loader,args=())
+
+t1.start()
+t2.start()
+t1.join()
+
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_SIMPLEX
@@ -84,13 +104,11 @@ cam.set(4, 480) # set video height
 # Define min window size to be recognized as a face
 minW = 0.1*cam.get(3)
 minH = 0.1*cam.get(4)
-#inicjacja zmiennej do kilkukrotnego sprawdzenia danej twarzy
+# Initialization of the variable to check the face several times
 incToOpen=0
-print("System ready")
-
-#iniciate id counter
+# Iniciate id counter
 id = 0
-# names related to id
+# Names related to id
 names = ['None']
 
 # List of avalible users
@@ -98,7 +116,7 @@ FileFaceNamePath = os.path.abspath('name_dataset')
 ifExistsFileFaceName = os.path.isfile(FileFaceNamePath)
 if  ifExistsFileFaceName:
     print("\nList of user in dataset:")
-    print("ID | NAME")
+    print("ID| NAME")
     faceNameFileRead = open(FileFaceNamePath,"r")
     if faceNameFileRead.mode == 'r':
         contents = faceNameFileRead.read()
@@ -148,10 +166,10 @@ while True:
         cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)  
 
     cv2.imshow('Smart Doors - Monitoring',img) 
-    k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
-    if k == 27:
+    k = cv2.waitKey(10) & 0xff 
+    if k == 27: # Press 'ESC' for exit program
         break
-    if k == 32:
+    if k == 32: # Press 'Space' to open door
         openDoor(True)
 # Do a bit of cleanup
 print("\n [INFO] Exiting Program and cleanup stuff")

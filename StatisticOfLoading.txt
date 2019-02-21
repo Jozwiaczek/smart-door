@@ -1,0 +1,7 @@
+Czas oczekiwania=1 | Liczba zdjec=1 | Rozmiar YML=0.13724517822265625MiB
+Czas oczekiwania=1 | Liczba zdjec=10 | Rozmiar YML=1.3010215759277344MiB
+Czas oczekiwania=3 | Liczba zdjec=100 | Rozmiar YML=12.598590850830078MiB
+Czas oczekiwania=6 | Liczba zdjec=200 | Rozmiar YML=24.07226848602295MiB
+Czas oczekiwania=9 | Liczba zdjec=300 | Rozmiar YML=36.04348087310791MiB
+Czas oczekiwania=15 | Liczba zdjec=500 | Rozmiar YML=60.035888671875MiB
+Czas oczekiwania=28 | Liczba zdjec=1000 | Rozmiar YML=122.38586902618408MiB
