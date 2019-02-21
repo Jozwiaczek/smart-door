@@ -79,12 +79,13 @@ Describe
  9. Install module to control Raspberry Pi GPIO channels
  `pip install RPi.GPIO`
  
- 10. Install 
+ 10. Install progress bar library 
+ `pip install progress`
 	 
- 11. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
+ 12. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples
 		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 
- 12. Run again **1_face_management.py** and choose option *[5] Face training* to train a recognaizer. 
+ 13. Run again **1_face_management.py** and choose option *[5] Face training* to train a recognaizer. 
 	![enter image description here](https://lh3.googleusercontent.com/zlFmj1s6J9vheZ3nLv-1mSn0VQxp8wj23cxZGlDbXf4hv-TfaHZPdvKgLgNuUt4QkgoXyLq5C0LE)
 
 		> Every time you add a new user or you update something, you must repeat this step!
@@ -93,8 +94,8 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MjgwMjg0LC0xMTcyNTE1ODkyLDkyND
-IzOTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1
-LC0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNz
-I5NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTE4NjY2MzUwMjYsLTExNzI1MTU4OTIsOT
+I0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5
+OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLT
+I3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
