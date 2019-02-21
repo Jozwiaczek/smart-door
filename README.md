@@ -82,15 +82,15 @@ Describe
  10. Install [progress](https://pypi.org/project/progress/) bar library 
  `pip install progress`
 	 
- 12. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples. Remember to use face training to create train
+ 12. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples. Remember to use face training, that creates a file that's responsible for face recognition.
 		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
 13. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEwMDg4OTEsLTExNzI1MTU4OTIsOT
-I0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5
-OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLT
-I3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTQ4ODYzNjcwNSwtMTE3MjUxNTg5Miw5Mj
+QyMzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5
+NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMj
+cyOTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
