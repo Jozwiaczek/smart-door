@@ -92,9 +92,9 @@ This project provides software and hardware installation instructions for smart 
 	- **Delete user**: This can remove a specific user from your list.
 	- **Show list of users**: This shows id, nicknames and the number of samples for each user
 	- **Face training**: Every time you want your changes (adding a user, adding samples or deleting a user) to be taken into account when recognizing faces, you must use a trainer.
-	- **Quit program**:
+	- **Quit program**
 
-> After each, adding a user or samples or removing a user,  the program asks if you want to use a trainer. 
+> After each, adding a user or samples or removing a user, the program asks if you want to use a trainer. 
 > If you plan to do several activities, I recommend that you leave it at the very end, because with a large number of samples it takes a while.
 
 	
@@ -106,9 +106,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTg1NjExNiwtMTk3NjM2MjE1NSwtMT
-I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
-OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
-0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
-NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTE2NDgyMzEyNzgsLTE5NzYzNjIxNTUsLT
+EyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQy
+Mzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NS
+wtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcy
+OTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
