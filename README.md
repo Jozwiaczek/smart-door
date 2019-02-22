@@ -14,7 +14,7 @@ This project provides software and hardware installation instructions for smart 
  - [Starter Kit V3.0 for Raspberry Pi](https://pl.aliexpress.com/item/SunFounder-Super-Starter-Learning-Kit-V3-0-for-Raspberry-Pi-3-2-Model-B-1-Model/32805707137.html?spm=a2g0s.9042311.0.0.27425c0fwNGuQX)
  - [Electro-Magnetic Lock](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - [Raspberry Pi Camera Night Vision](https://pl.aliexpress.com/item/Raspberry-Pi-Camera-RPI-Focal-Adjustable-Night-Version-Camera-Acrylic-Holder-IR-Light-FFC-Cable-for/32796213162.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
- - Relay 5V 10A/250VAC for lock
+ - [Relay 5V 10A/250VAC](https://botland.com.pl/en/relays/8463-relay-5v-10a250vac.html) for lock
  - Power supply 12V / 1A for power supply your lock. 
  The end of the cable is not important because it must be cut off anyway.
  - Raspberry Pi tape - camera 200cm 15 wires 1mm raster
@@ -84,8 +84,9 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMT
-E3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2
-NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLT
-k0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ==
+eyJoaXN0b3J5IjpbMTM2NDM1ODk3OSwtMTI0OTQ4NDkzNCwtND
+g4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAy
+Mzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMT
+YzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1
+MjkxOF19
 -->
