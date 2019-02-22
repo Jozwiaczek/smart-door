@@ -87,7 +87,7 @@ This project provides software and hardware installation instructions for smart 
 ### Face Management
 1. Run file **1_face_management.py**.  This program allows you to manage a list of users based on which faces are recognized.
 2. The menu displays:
-	1. Add user: You enter the nickname of the user, the number of samples you want to give him, and then take pictures of the face.
+	 Add user: You enter the nickname of the user, the number of samples you want to give him, and then take pictures of the face.
 	2. Add sample for user: This will add the specified number of photos to an existing user.
 	3. Delete user: This can remove a specific user from your list.
 	4. Show list of users
@@ -101,9 +101,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjE5MDY5MiwtMTk3NjM2MjE1NSwtMT
-I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
-OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
-0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
-NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTEyNjkxMjMyNTcsLTE5NzYzNjIxNTUsLT
+EyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQy
+Mzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NS
+wtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcy
+OTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
