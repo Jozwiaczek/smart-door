@@ -83,17 +83,19 @@ Describe
 ## How to use Smart Doors:
 
 ### Face Management
-1. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples. Remember to use face training, that creates a file that's responsible for face recognition.
-		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
+1. Run file **1_face_management.py**
+2. Then
 	
-### Face
+	![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
+	
+### Face Recognizer
 2. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzY1ODAwMiwtMTI0OTQ4NDkzNCwtND
-g4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAy
-Mzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMT
-YzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1
-MjkxOF19
+eyJoaXN0b3J5IjpbLTE1NzA4NjA4MjgsLTEyNDk0ODQ5MzQsLT
+Q4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQw
+MjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LD
+E2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDcz
+NTI5MThdfQ==
 -->
