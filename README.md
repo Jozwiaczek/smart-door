@@ -93,8 +93,14 @@ This project provides software and hardware installation instructions for smart 
 	- **Show list of users**: This shows id, nicknames and the number of samples for each user
 	- **Face training**: Every time you want your changes (adding a user, adding samples or deleting a user) to be taken into account when recognizing faces, you must use a trainer.
 	- **Quit program**:
+
+> After each user or sample addition or removal of a user, the program
+> asks if you want to use a trainer. If you plan to do several
+> activities, I recommend that you leave it at the very end, because
+> with a large number of samples it takes a while.
+
 	
-	![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
+![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
 ### 2. Face Recognizer
 1. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
@@ -102,9 +108,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgxMTMxNjksLTE5NzYzNjIxNTUsLT
-EyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQy
-Mzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NS
-wtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcy
-OTQ1MDI0LDE3NDczNTI5MThdfQ==
+eyJoaXN0b3J5IjpbNTU0NjAxNjg3LC0xOTc2MzYyMTU1LC0xMj
+Q5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5
+NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLT
+MzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0
+NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
