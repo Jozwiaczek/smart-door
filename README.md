@@ -95,19 +95,15 @@ This project provides software and hardware installation instructions for smart 
 	- **Run trainer**: Every time you want your changes (adding a user, adding samples or deleting a user) to be taken into account when recognizing faces, you must use a trainer.
 	- **Quit program**
 
-> After each, adding a user or samples or removing a user, the program asks if you want to use a trainer. 
-> If you plan to do several activities, I recommend that you leave it at the very end, because with a large number of samples it takes a while.
+	> After each, adding a user or samples or removing a user, the program asks if you want to use a trainer. 
+	> If you plan to do several activities, I recommend that you leave it at the very end, because with a large number of samples it takes a while.
 		
-	
-3. To be able to run FaceRecognizer at all you have to add at least one user. I recommend that you add at least 200/300 samples for proper operation.
+3. To be able to run FaceRecognizer at all you have to add at least one user and run trainer. I recommend that you add at least 200/300 samples for proper operation.
 
 ### 2. Face Recognizer
-1. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
-
-
-
+1. Run **2_face_recognition.py** and enjoy the magic of the smart door :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjkyMjg1MywtMTk3NjM2MjE1NSwtMT
+eyJoaXN0b3J5IjpbLTQ1NDQxOTU3MSwtMTk3NjM2MjE1NSwtMT
 I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
 OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
 0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
