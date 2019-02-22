@@ -86,7 +86,8 @@ This project provides software and hardware installation instructions for smart 
 
 ### Face Management
 1. Run file **1_face_management.py**
-2. Then
+2. The menu displays:
+	1. Add user:  
 	
 	![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
@@ -95,9 +96,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYzNjIxNTUsLTEyNDk0ODQ5MzQsLT
-Q4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQw
-MjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LD
-E2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDcz
-NTI5MThdfQ==
+eyJoaXN0b3J5IjpbMTY3NDc4NTkyNiwtMTk3NjM2MjE1NSwtMT
+I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
+OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
+0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
+NDUwMjQsMTc0NzM1MjkxOF19
 -->
