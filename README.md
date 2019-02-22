@@ -87,6 +87,7 @@ This project provides software and hardware installation instructions for smart 
 ### 1. Face Management
 1. Run file **1_face_management.py**.  This program allows you to manage a list of users based on which faces are recognized.
 2. To perform an action, you must enter the listing number. The menu displays:
+![enter image description here](https://lh3.googleusercontent.com/hJ12ZvUku-cmIZDbOpJ36APbwTM7djWu5eCEM5RKxtMmfVPBrqNf37ucKtdHELoCA3dJQoHgqEzu)
 	- **Add user**: You enter the nickname of the user, the number of samples you want to give him, and then take pictures of the face.
 	- **Add sample for user**: This will add the specified number of photos to an existing user.
 	- **Delete user**: This can remove a specific user from your list.
@@ -96,16 +97,17 @@ This project provides software and hardware installation instructions for smart 
 
 > After each, adding a user or samples or removing a user, the program asks if you want to use a trainer. 
 > If you plan to do several activities, I recommend that you leave it at the very end, because with a large number of samples it takes a while.
-
-![enter image description here](https://lh3.googleusercontent.com/hJ12ZvUku-cmIZDbOpJ36APbwTM7djWu5eCEM5RKxtMmfVPBrqNf37ucKtdHELoCA3dJQoHgqEzu)
+		
 	
+3. To be able to run FaceRecognizer at all you have to add at least one user. I recommend that you add at least 200/300 samples for proper operation.
+
 ### 2. Face Recognizer
 1. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTcwNzEzOCwtMTk3NjM2MjE1NSwtMT
+eyJoaXN0b3J5IjpbMTc4NjkyMjg1MywtMTk3NjM2MjE1NSwtMT
 I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
 OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
 0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
