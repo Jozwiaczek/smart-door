@@ -26,7 +26,9 @@ This project provides software and hardware installation instructions for smart 
 
 *Step 1:*
 
-Describe
+*Documentation of hardware settings in preparation...*
+
+
 
 #### Using the breadboard to connect the pins:
 1. Green led = 5
@@ -93,7 +95,7 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA4NjA4MjgsLTEyNDk0ODQ5MzQsLT
+eyJoaXN0b3J5IjpbLTE5NzYzNjIxNTUsLTEyNDk0ODQ5MzQsLT
 Q4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQw
 MjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LD
 E2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDcz
