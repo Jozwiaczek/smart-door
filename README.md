@@ -15,7 +15,8 @@ This project provides software and hardware installation instructions for smart 
  - [Electro-Magnetic Lock](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - [Raspberry Pi Camera Night Vision](https://pl.aliexpress.com/item/Raspberry-Pi-Camera-RPI-Focal-Adjustable-Night-Version-Camera-Acrylic-Holder-IR-Light-FFC-Cable-for/32796213162.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - Relay 5V 10A/250VAC for lock
- - Power supply 12V / 1A for power supply your lock
+ - Power supply 12V / 1A for power supply your lock. 
+ The end of the cable is not important because it must be cut off anyway.
  - Raspberry Pi tape - camera 200cm 15 wires 1mm raster
  - Magnetic sensor to open Door / window - reed contact CMD14 + screws
 
@@ -83,8 +84,8 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzAxMzAxNSwtNDg4NjM2NzA1LC0xMT
-cyNTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2
-NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOT
-QwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTEyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMT
+E3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2
+NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLT
+k0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
