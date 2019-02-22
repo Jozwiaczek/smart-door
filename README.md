@@ -77,20 +77,21 @@ Describe
  10. Install [progress](https://pypi.org/project/progress/) bar library 
  `pip install progress`
 	 
- 11. Now you can enjoy with that project
+ 11. Now you can enjoy with that project :)
 
 
+## How to use Smart Doors:
 
-Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples. Remember to use face training, that creates a file that's responsible for face recognition.
+1. Run file **1_face_management.py** and choose *[1] Add user* to add new user with face samples. Remember to use face training, that creates a file that's responsible for face recognition.
 		![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
 13. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODA2MTgxLC0xMjQ5NDg0OTM0LC00OD
-g2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5NjgsLTEyOTU0MDIz
-NzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNj
-M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTE2MTE3Mzc1NzEsLTEyNDk0ODQ5MzQsLT
+Q4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQw
+MjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LD
+E2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDcz
+NTI5MThdfQ==
 -->
