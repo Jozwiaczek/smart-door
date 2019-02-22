@@ -84,7 +84,7 @@ This project provides software and hardware installation instructions for smart 
 
 ## How to use Smart Doors:
 
-### Face Management
+### 1. Face Management
 1. Run file **1_face_management.py**.  This program allows you to manage a list of users based on which faces are recognized.
 2. The menu displays:
 	- **Add user**: You enter the nickname of the user, the number of samples you want to give him, and then take pictures of the face.
@@ -93,17 +93,19 @@ This project provides software and hardware installation instructions for smart 
 	- **Show list of users**: This shows id, nicknames and the number of samples for each user
 	- **Face training**: 
 	- **Quit program**:
+
 	
 	![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
-### Face Recognizer
-2. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
+### 2. Face Recognizer
+1. Run **2_face_recognition.py** and enjoy the magic of the smart door :)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NzI2MTA5LC0xOTc2MzYyMTU1LC0xMj
-Q5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5
-NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLT
-MzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0
-NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbMTYxNDcxNTUzOSwtMTk3NjM2MjE1NSwtMT
+I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
+OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
+0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
+NDUwMjQsMTc0NzM1MjkxOF19
 -->
