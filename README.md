@@ -17,8 +17,8 @@ This project provides software and hardware installation instructions for smart 
  - [Relay 5V 10A/250VAC](https://botland.com.pl/en/relays/8463-relay-5v-10a250vac.html) for lock
  - [Power supply 12V / 1A](https://botland.com.pl/en/mains-power-supplies/5045-power-supply-12v-1a-dc-plug-55-25mm.html) for power supply your lock. 
  The end of the cable is not important because it must be cut off anyway.
- - [Raspberry Pi tape - camera 200cm 15 wires 1mm raster](https://botland.com.pl/en/ffc-fpc-connectors/3952-raspberry-pi-tape-camera-200cm-15-wires-1mm-raster.html)
- - Magnetic sensor to open Door / window - reed contact CMD14 + screws
+ - [Raspberry Pi tape - camera 200cm](https://botland.com.pl/en/ffc-fpc-connectors/3952-raspberry-pi-tape-camera-200cm-15-wires-1mm-raster.html)
+ - [Magnetic sensor to open Door](https://botland.com.pl/en/magnetic-sensors/3104-magnetic-sensor-to-open-door-window-reed-contact-cmd14-screws.html)
 
 
 ## Hardware Setup:
@@ -84,9 +84,9 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NDQyNzkyLC0xMjQ5NDg0OTM0LC00OD
-g2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5NjgsLTEyOTU0MDIz
-NzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNj
-M4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUy
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTEwMDY5NTI4MiwtMTI0OTQ4NDkzNCwtND
+g4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAy
+Mzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMT
+YzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1
+MjkxOF19
 -->
