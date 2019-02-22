@@ -8,24 +8,16 @@ This project provides software and hardware installation instructions for smart 
 
 ## Requirements:
 
-#### Hardware
  - [Raspberry Pi](http://www.raspberrypi.org/) (In my case it is Raspberry Pi B+)
- - Micro USB charger (1.5A preferable) for power supply Raspberry Pi
+ - Micro USB charger (1.5A preferable) for power supply your Raspberry Pi
  - Micro SD Card
  - [Starter Kit V3.0 for Raspberry Pi](https://pl.aliexpress.com/item/SunFounder-Super-Starter-Learning-Kit-V3-0-for-Raspberry-Pi-3-2-Model-B-1-Model/32805707137.html?spm=a2g0s.9042311.0.0.27425c0fwNGuQX)
  - [Electro-Magnetic Lock](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - [Raspberry Pi Camera Night Vision](https://pl.aliexpress.com/item/Raspberry-Pi-Camera-RPI-Focal-Adjustable-Night-Version-Camera-Acrylic-Holder-IR-Light-FFC-Cable-for/32796213162.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
- - Relay 5V 10A/250VAC*
- - Power supply 12V / 1A
+ - Relay 5V 10A/250VAC for lock
+ - Power supply 12V / 1A for power supply your lock
  - Raspberry Pi tape - camera 200cm 15 wires 1mm raster
  - Magnetic sensor to open Door / window - reed contact CMD14 + screws
-
-
-#### Software
- - Raspbian
- - Python 3.5
- - OpenCV
-
 
 
 ## Hardware Setup:
@@ -91,8 +83,8 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5OTk0NjA0LC00ODg2MzY3MDUsLTExNz
-I1MTU4OTIsOTI0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2
-LC05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05ND
-A4NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTc4MzAxMzAxNSwtNDg4NjM2NzA1LC0xMT
+cyNTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2
+NiwtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOT
+QwODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
 -->
