@@ -101,11 +101,12 @@ This project provides software and hardware installation instructions for smart 
 3. To be able to run FaceRecognizer at all you have to add at least one user and run trainer. I recommend that you add at least 200/300 samples for proper operation.
 
 ### 2. Face Recognizer
-1. Run **2_face_recognition.py** and enjoy the magic of the smart door :
+1. Run **2_face_recognition.py** and enjoy the magic of the smart door 
+2. Program w termi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDQxOTU3MSwtMTk3NjM2MjE1NSwtMT
-I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
-OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
-0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
-NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbLTE1NjU4MjU4ODEsLTQ1NDQxOTU3MSwtMT
+k3NjM2MjE1NSwtMTI0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcy
+NTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2Ni
+wtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQw
+ODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
 -->
