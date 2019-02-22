@@ -91,7 +91,7 @@ This project provides software and hardware installation instructions for smart 
 	- **Add sample for user**: This will add the specified number of photos to an existing user.
 	- **Delete user**: This can remove a specific user from your list.
 	- **Show list of users**: This shows id, nicknames and the number of samples for each user
-	- **Face training**: Every time you want your changes (adding a user, adding samples or deleting a user) to be taken into account when recognizing faces, you must use a trainer.
+	- **Run trainer**: Every time you want your changes (adding a user, adding samples or deleting a user) to be taken into account when recognizing faces, you must use a trainer.
 	- **Quit program**
 
 > After each, adding a user or samples or removing a user, the program asks if you want to use a trainer. 
@@ -105,9 +105,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTc2MjMyNiwtMTk3NjM2MjE1NSwtMT
-I0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcyNTE1ODkyLDkyNDIz
-OTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2NiwtOTcwMzkxOTk1LC
-0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQwODQ5NDY4LC0yNzI5
-NDUwMjQsMTc0NzM1MjkxOF19
+eyJoaXN0b3J5IjpbMjU5ODY4OTIxLC0xOTc2MzYyMTU1LC0xMj
+Q5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5
+NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLT
+MzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0
+NTAyNCwxNzQ3MzUyOTE4XX0=
 -->
