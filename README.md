@@ -109,14 +109,15 @@ This project provides software and hardware installation instructions for smart 
 ## Planned improvements
 
  - Add voice control
- - Door control using HomeKit ( 
+ - Door control using HomeKit (Especially it's about controlling the application over the phone)
+ - Controlling the system from outside the home.
 
 ## Contact and Questions
 If you have any doubts or questions, write to my e-mail: kubencki@gmail.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIwMjAxMiwtNDU0NDE5NTcxLC0xOT
-c2MzYyMTU1LC0xMjQ5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1
-MTU4OTIsOTI0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC
-05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4
-NDk0NjgsLTI3Mjk0NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTE2MTgyNDE1MTYsLTQ1NDQxOTU3MSwtMT
+k3NjM2MjE1NSwtMTI0OTQ4NDkzNCwtNDg4NjM2NzA1LC0xMTcy
+NTE1ODkyLDkyNDIzOTY4LC0xMjk1NDAyMzc5LC04NTM1NDY2Ni
+wtOTcwMzkxOTk1LC0zMzQ3MzM0MTcsMTYzODM4MDY5MiwtOTQw
+ODQ5NDY4LC0yNzI5NDUwMjQsMTc0NzM1MjkxOF19
 -->
