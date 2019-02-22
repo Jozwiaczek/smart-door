@@ -12,11 +12,13 @@ This project provides software and hardware installation instructions for smart 
  - [Raspberry Pi](http://www.raspberrypi.org/) (In my case it is Raspberry Pi B+)
  - Micro USB charger (1.5A preferable)
  - Micro SD Card
- - [Magnetic Contact Switch](http://amzn.com/B006VK6YLC)
  - [Starter Kit V3.0 for Raspberry Pi](https://pl.aliexpress.com/item/SunFounder-Super-Starter-Learning-Kit-V3-0-for-Raspberry-Pi-3-2-Model-B-1-Model/32805707137.html?spm=a2g0s.9042311.0.0.27425c0fwNGuQX)
  - [Electro-Magnetic Lock](https://pl.aliexpress.com/item/60KG-132lb-Electric-Magnetic-Lock-Fail-Secure-DC-12V-for-Door-Entry-Access-Control-System/32764160255.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - [Raspberry Pi Camera Night Vision](https://pl.aliexpress.com/item/Raspberry-Pi-Camera-RPI-Focal-Adjustable-Night-Version-Camera-Acrylic-Holder-IR-Light-FFC-Cable-for/32796213162.html?spm=a2g0s.9042311.0.0.27425c0fcBsA9n)
  - Relay 5V 10A/250VAC*
+ - Power supply 12V / 1A
+ - Raspberry Pi tape - camera 200cm 15 wires 1mm raster
+ - Magnetic sensor to open Door / window - reed contact CMD14 + screws
 
 
 #### Software
@@ -89,7 +91,7 @@ Describe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc1NjEwODcsLTQ4ODYzNjcwNSwtMT
+eyJoaXN0b3J5IjpbLTE2MTcyNDg2NDYsLTQ4ODYzNjcwNSwtMT
 E3MjUxNTg5Miw5MjQyMzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2
 NjYsLTk3MDM5MTk5NSwtMzM0NzMzNDE3LDE2MzgzODA2OTIsLT
 k0MDg0OTQ2OCwtMjcyOTQ1MDI0LDE3NDczNTI5MThdfQ==
