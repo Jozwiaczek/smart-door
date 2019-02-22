@@ -87,7 +87,12 @@ This project provides software and hardware installation instructions for smart 
 ### Face Management
 1. Run file **1_face_management.py**
 2. The menu displays:
-	1. Add user: You give the nickname of the user, the number of samples you want to give him, followed by the automatic taking of the face. 
+	1. Add user: You enter the nickname of the user, the number of samples you want to give him, and then take pictures of the face.
+	2. Add sample for user: 
+	3. Delete user
+	4. Show list of users
+	5. Face training
+	6. Quit program
 	
 	![enter image description here](https://lh3.googleusercontent.com/yGJpRubCJUU9t5htu5X2TKgAxZJKJH-S56T07qFlUBnv6hfDlf1-Qh-wVfxqbSVtpnOn6yYsVkfX)
 	
@@ -96,9 +101,9 @@ This project provides software and hardware installation instructions for smart 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5MTA0NTkxLC0xOTc2MzYyMTU1LC0xMj
-Q5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1MTU4OTIsOTI0MjM5
-NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC05NzAzOTE5OTUsLT
-MzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4NDk0NjgsLTI3Mjk0
-NTAyNCwxNzQ3MzUyOTE4XX0=
+eyJoaXN0b3J5IjpbLTIwNzYwOTcwNDAsLTE5NzYzNjIxNTUsLT
+EyNDk0ODQ5MzQsLTQ4ODYzNjcwNSwtMTE3MjUxNTg5Miw5MjQy
+Mzk2OCwtMTI5NTQwMjM3OSwtODUzNTQ2NjYsLTk3MDM5MTk5NS
+wtMzM0NzMzNDE3LDE2MzgzODA2OTIsLTk0MDg0OTQ2OCwtMjcy
+OTQ1MDI0LDE3NDczNTI5MThdfQ==
 -->
