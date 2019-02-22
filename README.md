@@ -102,9 +102,13 @@ This project provides software and hardware installation instructions for smart 
 
 ### 2. Face Recognizer
 1. Run **2_face_recognition.py** and enjoy the magic of the smart door 
-2. Program w terminalu pokaże listę dostępnych użytkowników, 
+2. Program w terminalu pokaże listę dostępnych użytkowników, którzy mogą otworzyć drzwi.
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODIzMDIyOCwtNDU0NDE5NTcxLC0xOT
+eyJoaXN0b3J5IjpbLTM4Mjk5NzMzNCwtNDU0NDE5NTcxLC0xOT
 c2MzYyMTU1LC0xMjQ5NDg0OTM0LC00ODg2MzY3MDUsLTExNzI1
 MTU4OTIsOTI0MjM5NjgsLTEyOTU0MDIzNzksLTg1MzU0NjY2LC
 05NzAzOTE5OTUsLTMzNDczMzQxNywxNjM4MzgwNjkyLC05NDA4
