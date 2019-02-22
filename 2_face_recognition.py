@@ -148,12 +148,12 @@ while True:
         # Check if confidence is less them 100 ==> "0" is perfect match
         if (confidence < 100):
             id = names[id]
-            rozpoznanie=100-confidence
+            recognitionPercent=int(100-confidence)
             confidence = "  {0}%".format(round(100 - confidence))
-            if(rozpoznanie>30):
+            if(recognitionPercent>60):
                 incToOpen+=1
-            print(rozpoznanie)
-            print(incToOpen)
+            print("Percentage of recognition: %d"%recognitionPercent)
+            print("The flag to open: %d"%incToOpen)
         else:
             id = "unknown"
             confidence = "  {0}%".format(round(100 - confidence))

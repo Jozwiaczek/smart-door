@@ -130,7 +130,6 @@ def training () :
         sumUser += 1
     
     if sumUser>0:
-        #TODO LOADER
         def loader():
             # Get number of photos for ID
             numberAllPhoto = 0
@@ -169,7 +168,7 @@ def training () :
             # Save the model into trainer/trainer.yml
             recognizer.write('trainer/trainer.yml') # recognizer.save() worked on Mac, but not on Pi
             # Print the numer of faces trained and end program
-            print("\n {0} faces trained.".format(len(np.unique(ids))))
+            print("\n {0} user trained.".format(len(np.unique(ids))))
         
         t1=threading.Thread(target=trainingFunThread,args=())
         t2=threading.Thread(target=loader,args=())
@@ -328,6 +327,7 @@ def addingUser():
         if len(faces)==0 and isDetect == False:
             print(" No face detected. Stand in front of the camera.")
             isDetect = True
+            beeping()
         elif len(faces)>0:
             photosLeftNumber=face_sample_int-count
             print(" Photos left: %d"%(photosLeftNumber))
@@ -343,13 +343,13 @@ def addingUser():
         if k == 27:
             cv2.destroyAllWindows()
             if counter >= 1:
-                beep(2)
+                beep(1)
                 addUser(face_name)
                 print(" Face capture interrupted\n Succesfull adding {} face samples".format(face_sample_int)) 
                 wantTraining()
             break
         elif count == face_sample_int: # Take X face sample and stop video
-            beep(2)
+            beep(1)
             cv2.destroyAllWindows()
             addUser(face_name)
             print(" \n Succesfull adding {} face samples".format(face_sample_int)) 
