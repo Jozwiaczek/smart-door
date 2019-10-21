@@ -7,6 +7,7 @@ import threading
 from time import *
 from lcd import *
 from progress.bar import *
+import tkinter as tk
 
 # Declaration of pin
 pinGreenLed=5
@@ -37,7 +38,6 @@ def beep(counter):
 def openDoor(getout,ev=None):
   global lcd
   lcd = LCD()
-
   # Open door
   lcd.clear()
   GPIO.output(pinRedLed, GPIO.HIGH)
@@ -50,6 +50,7 @@ def openDoor(getout,ev=None):
     if getout == False :
         lcd.message("Hello: %s\nRemaining: %dsec"%(str(id),time))
     else :
+        lcd.clear()
         lcd.message("Open doors\nRemaining: %dsec"%(time))
     sleep(1)
     lcd.clear()
@@ -99,13 +100,27 @@ faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_SIMPLEX
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
+
+if not cam.isOpened():
+    print("Error: Camera is already opened.")
+    exit()
+
+
+root = tk.Tk()
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+#cam.set(3, screen_width) # set video widht
+#cam.set(4, screen_height) # set video height
 cam.set(3, 640) # set video widht
 cam.set(4, 480) # set video height
+
 # Define min window size to be recognized as a face
 minW = 0.1*cam.get(3)
 minH = 0.1*cam.get(4)
+
 # Initialization of the variable to check the face several times
 incToOpen=0
+openOnInc=5
 # Iniciate id counter
 id = 0
 # Names related to id
@@ -148,24 +163,29 @@ while True:
         # Check if confidence is less them 100 ==> "0" is perfect match
         if (confidence < 100):
             id = names[id]
-            rozpoznanie=100-confidence
+            recognitionPercent=int(100-confidence)
             confidence = "  {0}%".format(round(100 - confidence))
-            if(rozpoznanie>30):
+            if recognitionPercent>60:
                 incToOpen+=1
-            print(rozpoznanie)
-            print(incToOpen)
+            print("Percentage of recognition: %d"%recognitionPercent)
+            print("The flag to open: %d"%incToOpen)
         else:
             id = "unknown"
             confidence = "  {0}%".format(round(100 - confidence))
             incToOpen=0
-        if(incToOpen==5):
-          openDoor(False)
-          incToOpen=0
 
+        #Adding text to rectengle (Object, string, position, font, size, color, fontThickness)
         cv2.putText(img, str(id), (x+5,y-5), font, 1, (255,255,255), 2)
-        cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)  
+        cv2.putText(img, "Check:"+str(incToOpen)+"/"+str(openOnInc), (x+10,y+h-5), font, 1, (0,255,255), 1)
+        cv2.putText(img, str(confidence), (x+170,y+h-5), font, 1, (255,255,0), 1)
+        
+    if(incToOpen==openOnInc):
+      openDoor(False)
+      incToOpen=0
 
-    cv2.imshow('Smart Doors - Monitoring',img) 
+    #cv2.namedWindow('Monitoring', cv2.WND_PROP_FULLSCREEN)
+    #cv2.setWindowProperty('Monitoring',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
+    cv2.imshow('Monitoring',img) 
     k = cv2.waitKey(10) & 0xff 
     if k == 27: # Press 'ESC' for exit program
         break
